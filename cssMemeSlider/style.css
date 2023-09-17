@@ -101,3 +101,53 @@
   .btn:last-child{
     margin-right: 0;
   }
+  .btn:hover{
+    background-color: white;
+  }
+  .btn:active{
+    transform: scale(1.2);
+  }
+  
+  /* Двигаем картинки */
+  #rd1:checked ~ .img-container {
+      margin-left: 0;
+  }
+  
+  #rd2:checked ~ .img-container {
+      margin-left: -100%;
+  }
+  #rd3:checked ~ .img-container{
+  margin-left: -200%;
+  }
+  #rd4:checked ~ .img-container{
+      margin-left: -300%;
+  }
+  /* смена цвета кнопок */
+      #rd1:checked ~ .nav-text__wrapper div label[for="rd1"] {
+        background-color: white;
+      }
+      #rd2:checked ~ .nav-text__wrapper div label[for="rd2"] {
+        background-color: white;
+      }
+      #rd3:checked ~ .nav-text__wrapper div label[for="rd3"] {
+        background-color: white;
+      }
+      #rd4:checked ~ .nav-text__wrapper div label[for="rd4"] {
+        background-color: white;
+      }
+  /* двигаем текст */
+  #rd1:checked ~ .nav-text__wrapper .caption-conateiner li:nth-child(1) {
+    margin-left: 0;
+  }
+  
+  #rd2:checked ~ .nav-text__wrapper  .caption-conateiner li:nth-child(1) {
+    margin-left: -100%;
+  }
+  
+  #rd3:checked ~ .nav-text__wrapper  .caption-conateiner li:nth-child(1){
+    margin-left: -200%;
+  }
+  
+  #rd4:checked ~ .nav-text__wrapper  .caption-conateiner li:nth-child(1){
+    margin-left: -300%;
+  }
