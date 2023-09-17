@@ -151,3 +151,16 @@
   #rd4:checked ~ .nav-text__wrapper  .caption-conateiner li:nth-child(1){
     margin-left: -300%;
   }
+
+  @media (max-width: 800px){
+    .nav-text__wrapper{
+      flex-direction: column-reverse;
+    }
+    .navigation{
+      margin-bottom: 2vh;
+    }
+    .caption-conateiner{
+      align-self: start;
+      width: 100%;
+    }
+  }
