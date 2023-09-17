@@ -47,3 +47,57 @@
     justify-content: space-between;
     align-items: center
   }
+  .caption__text-wrapper{
+    display: flex;
+    width: 400%;
+    transition: all 0.60s ease;
+  }
+  .caption__text-wrapper p{
+  width: 100%;
+  margin: 0;
+  transition: all 0.20 ease;
+  }
+   input{
+    display: none;
+  }
+  
+  img{
+      width: 100%;
+      height: 100%;
+      border-radius: 1%;
+      transition: all 0.20s ease;
+  
+    }
+  
+  
+  .navigation{
+      display: inline-flex;
+     
+  }
+  
+  .caption-conateiner{
+      display: inline;
+      transition: all 0.20s ease-in;
+      width: 64%;
+  }
+  .caption__text-wrapper p{
+      color: rgb(62, 77, 71);
+      font-size: 120%;
+      display: inline-block;
+     width: 100%;
+      white-space: nowrap;
+  }
+  .btn{
+      display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    border: solid white;
+    
+    margin-right: 2vh;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.10s ease;
+  }
+  .btn:last-child{
+    margin-right: 0;
+  }
