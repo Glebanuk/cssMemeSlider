@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>MemeSlider</title>
 </head>
 <body>
-    
+
+    <div class="slider-container">
+       
+        <div class="slider">
+
+            <input type="radio" name="buton" id="rd1" checked>
+            <input type="radio" name="buton" id="rd2">
+            <input type="radio" name="buton" id="rd3" >
+            <input type="radio" name="buton" id="rd4" >
+
+            <ul class="img-container">
+                <li><img src="./assets/photo_2023-09-16_22-35-37.jpg" class="img1"  alt="img"></li>
+                <li><img src="./assets/photo_2023-09-16_22-39-01.jpg"class="img2" alt="img"></li>
+                <li><img src="./assets/photo_2023-09-16_22-47-54.jpg" class="img3" alt="img"></li>
+                <li><img src="./assets/photo_2023-09-16_22-52-16.jpg" class="img4" alt="img"></li>
+            </ul>
+            
+            <div class="nav-text__wrapper">
+                <ul class="caption-conateiner">
+                    <li class="caption__text-wrapper"> 
+                        <p><b>First funny description text</b></p> 
+                        <p><b>Second funny description text</b></p> 
+                        <p><b>Third funny description text</b></p>
+                        <p><b>Fourth funny description text</b></p>
+                    </li>
+                    
+                </ul>
+
+                <div class="navigation">
+                    <label for="rd1" class="btn"></label>
+                    <label for="rd2" class="btn"></label>
+                    <label for="rd3" class="btn"></label>
+                    <label for="rd4" class="btn"></label>
+                </div>
+        </div>
+        </div>
+        
+
+        </div>
+    </div>
 </body>
 </html>
